@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "0.1",
-	"FriendlyName": "Modular GameplayD ata",
+	"FriendlyName": "Modular Gameplay Data",
 	"Description": "Provides Data Asset and other classes that hold modular gameplay data that can be applied at runtime.",
 	"Category": "Other",
 	"CreatedBy": "Chronicler",
