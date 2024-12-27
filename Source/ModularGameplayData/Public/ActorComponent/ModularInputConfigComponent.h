@@ -17,7 +17,7 @@
  *
  *	@see LyraGame/Input/LyraInputComponent
  */
-UCLASS(Config="Input")
+UCLASS(Config="Input", Meta = (BlueprintSpawnableComponent))
 class MODULARGAMEPLAYDATA_API UModularInputConfigComponent : public UEnhancedInputComponent
 {
 	GENERATED_BODY()
