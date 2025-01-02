@@ -87,11 +87,12 @@ FInputActionValue UModularInputModifierDeadZone::ModifyRaw_Implementation(const 
 		return CurrentValue;
 	}
 	
+	/* @TODO: FIX!
 	ULocalPlayerSaveGame* SharedSettings = ULocalPlayerSaveGame::LoadOrCreateSaveGameForLocalPlayer(ULocalPlayerSaveGame::StaticClass(),
 		LocalPlayer, SHARED_SETTINGS_SLOT_NAME);
 	const UClass* SettingsClass = ULocalPlayerSaveGame::StaticClass();
 
-	/* @TODO: FIX!
+
 	 * 	UModularSettingsShared* Settings = LocalPlayer->GetSharedSettings();
 	//ensure(Settings);
 
@@ -160,12 +161,13 @@ FInputActionValue UModularInputModifierGamepadSensitivity::ModifyRaw_Implementat
 	{
 		return CurrentValue;
 	}
-	
+
+	/* @TODO: FIX!
 	ULocalPlayerSaveGame* SharedSettings = ULocalPlayerSaveGame::LoadOrCreateSaveGameForLocalPlayer(ULocalPlayerSaveGame::StaticClass(),
 		LocalPlayer, SHARED_SETTINGS_SLOT_NAME);
 	const UClass* SettingsClass = ULocalPlayerSaveGame::StaticClass();
 
-	/* @TODO: FIX!
+
 	UModularSettingsShared* Settings = LocalPlayer->GetSharedSettings();
 	//ensure(Settings);
 
